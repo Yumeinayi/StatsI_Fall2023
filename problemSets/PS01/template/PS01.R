@@ -24,7 +24,7 @@ pkgTest <- function(pkg){
 }
 
 # here is where you load any necessay packages
-library(stargazer)
+ 
 library(ggplot2)
 
 lapply(c(" "),  pkgTest)
@@ -86,3 +86,6 @@ ggplot(data, aes(x = X1, y = Y, color = factor(Region), shape = factor(Region)))
   scale_color_manual(values = c("1" = "red", "2" = "blue", "3" = "green", "4" = "purple")) +
   scale_shape_manual(values = c("1" = 16, "2" = 17, "3" = 18, "4" = 19)) +
   theme_minimal()
+
+# -------------------------------------------------------------------------
+
